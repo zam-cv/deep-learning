@@ -1,0 +1,104 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# UV specific
+uv.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# Dataset files (large files)
+*.zip
+*.gz
+*.tar
+*.tgz
+
+# Model files (large files)
+models/
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.pb
+
+# Training artifacts
+results/
+logs/
+tensorboard/
+checkpoints/
+*.log
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+
+# Data and cache
+.cache/
+*.npy
+*.npz
+*.hdf5
+
+# Plots and figures
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+!docs/*.png
+!docs/*.jpg
+
+# Environment variables
+.env
+.env.local
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
